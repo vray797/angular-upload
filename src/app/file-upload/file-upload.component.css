@@ -1,0 +1,41 @@
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .upload-container.dark-theme {
+    background-color: #2b2b2b;
+  }
+  
+  .file-drop-zone {
+    width: 500px;
+    height: 300px;
+    border: 2px dashed #b3b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .upload-container.dark-theme .file-drop-zone {
+    background-color: #3a3a3a;
+  }
+  
+  .inner-content {
+    text-align: center;
+  }
+  
+  .upload-icon {
+    font-size: 50px;
+    color: #2b85e4;
+  }
+  
+  .browse-link {
+    color: #2b85e4;
+    cursor: pointer;
+  }
+  

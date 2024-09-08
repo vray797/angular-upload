@@ -1,0 +1,15 @@
+[data-theme="light"] {
+    --header-background-color: #ffffff;
+    --header-border-color: #e5e8ea;
+    --upload-box-color: #4D5562;
+    --main-content-background-color: #ffffff;
+    --main-content-text-color: #231f20;
+  }
+  
+  [data-theme="dark"] {
+    --header-background-color: #121826;
+    --header-border-color: #e5e8ea;
+    --upload-box-color: #F9FAFB;
+    --main-content-background-color: #121826;
+    --main-content-text-color: #ffffff;
+  }
